@@ -1,0 +1,8 @@
+{
+  "AssetName": "EngramEntry_DarkCola",
+  "ParentClass": "EngramEntry_WaterJar",
+  "AssetPath": "/Game/Mods/DarkCola/Engrams/EngramEntry_DarkCola",
+  "RequiredCharacterLevel": 25,
+  "RequiredEngramPoints": 6,
+  "BluePrintEntry": "PrimalItemConsumable_DarkCola (/Game/Mods/DarkCola/Blueprints/)"
+}

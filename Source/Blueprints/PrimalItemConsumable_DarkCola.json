@@ -1,0 +1,35 @@
+{
+  "AssetName": "PrimalItemConsumable_DarkCola",
+  "ParentClass": "PrimalItemConsumable_StaminaSoup (Energy Brew)",
+  "AssetPath": "/Game/Mods/DarkCola/Blueprints/PrimalItemConsumable_DarkCola",
+  "DescriptiveNameBase": "Dark Cola",
+  "ItemDescription": "A fizzy dark beverage that sharpens your senses and quickens your step. The secret blend of stimberries and sparkpowder creates an addictive carbonation that no survivor can resist.",
+  "BaseItemWeight": 2.0,
+  "MaxItemQuantity": 30,
+  "SpoilingTime": 7200.0,
+  "BlueprintTimeToCraft": 15.0,
+  "BaseCraftingXP": 2.0,
+  "bConsumeItemOnUse": true,
+  "bPreventUseByDinos": true,
+  "bPreventUseWhenSleeping": true,
+  "bAutoCraftBlueprint": true,
+  "ItemIcon": "HUD_FizzyDrink_Colorize_d (/Game/PrimalEarth/CoreBlueprints/Resources/Colorized/Textures/)",
+  "UseItemAddCharacterStatusValues": [
+    {
+      "StatusValueType": "STAMINA",
+      "BaseAmountToAdd": 40.0,
+      "AddOverTime": true,
+      "AddOverTimeSpeed": 10.0,
+      "DontRequireLessThanMaxToUse": true,
+      "UseItemQuality": true
+    },
+    {
+      "StatusValueType": "WATER",
+      "BaseAmountToAdd": 25.0,
+      "AddOverTime": false,
+      "AddOverTimeSpeed": 0.0,
+      "DontRequireLessThanMaxToUse": true,
+      "UseItemQuality": true
+    }
+  ]
+}
