@@ -8,9 +8,9 @@
   "CharacterAdd_DefaultHyperthermicInsulation": 0.0,
   "CharacterMultiplier_ExtraWaterConsumptionMultiplier": 1.0,
   "BuffDescription": {
-    "ModifierName": "Caffeine Rush",
-    "ModifierDescription": "Movement speed increased (+15%)",
-    "HudMessage": "Caffeine Rush Active",
+    "ModifierName": "カフェインラッシュ",
+    "ModifierDescription": "移動速度上昇中 (+15%)",
+    "HudMessage": "カフェインラッシュ発動中",
     "ModifierIcon": "HUD_FizzyDrink_Colorize_d (/Game/PrimalEarth/CoreBlueprints/Resources/Colorized/Textures/)"
   }
 }
