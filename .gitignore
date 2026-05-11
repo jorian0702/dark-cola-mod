@@ -1,0 +1,39 @@
+# MOD内部の作業用フォルダ (リポジトリには含めない)
+Scripts/
+Docs/
+
+# Unreal Engine
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+Binaries/
+*.uasset
+*.umap
+*.uexp
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Cursor
+.cursor/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp
+*.tmp
+*.bak
+*.log
