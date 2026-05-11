@@ -1,6 +1,0 @@
-{
-  "AssetPath": "/DarkCola/Engrams/EngramEntry_DarkCola",
-  "BluePrintEntry": "<Object '/DarkCola/Blueprints/PrimalItemConsumable_DarkCola.PrimalItemConsumable_DarkCola_C' Class 'BlueprintGeneratedClass'>",
-  "RequiredCharacterLevel": 25,
-  "RequiredEngramPoints": 6
-}

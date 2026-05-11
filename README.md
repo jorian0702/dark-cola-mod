@@ -4,12 +4,12 @@ ARK: Survival Ascended 用のカスタム炭酸飲料MOD。
 
 ## 概要
 
-**Dark Cola** はクラフト可能な消費アイテムで、ARKの世界における炭酸エナジードリンク。飲むと以下の効果が得られる:
+**Dark Cola** はARKの世界で飲める炭酸エナジードリンク。飲むと以下の効果が得られる:
 
+- **カフェインラッシュ** — 移動速度 +15% (60秒間)
 - **スタミナ回復** (+40 / 時間経過で回復)
-- **移動速度ブースト** (+15% / 徐々に付与)
 - **水分回復** (+25 / 即時)
-- 炭酸飲料アイコン付き消費アイテム
+- 炭酸飲料アイコン表示
 
 ## フォルダ構成
 
@@ -17,10 +17,13 @@ ARK: Survival Ascended 用のカスタム炭酸飲料MOD。
 dark-cola-mod/
 ├── DarkCola.uplugin          # MODプラグイン定義
 └── Source/
-    ├── Blueprints/            # アイテムBP (PrimalItemConsumable_DarkCola)
-    ├── Buffs/                 # 速度バフ (Buff_DarkCola)
-    ├── Engrams/               # エングラムエントリ (クラフト解放)
-    ├── ModDataAsset_BlankMod.uasset   # MODデータアセット
+    ├── Blueprints/
+    │   └── PrimalItemConsumable_DarkCola_v3.uasset  # アイテム本体
+    ├── Buffs/
+    │   └── Buff_DarkCola.uasset     # カフェインラッシュ (速度+15%, 60秒)
+    ├── Engrams/
+    │   └── EngramEntry_DarkCola.uasset  # エングラム登録
+    ├── ModDataAsset_BlankMod.uasset     # MODデータアセット
     └── PrimalGameData_BP_BlankMod.uasset  # MOD中核BP
 ```
 

@@ -1,5 +1,0 @@
-{
-  "AssetPath": "/DarkCola/Buffs/Buff_DarkCola",
-  "BuffName": "Buff_DarkCola",
-  "Note": "速度ブーストはアイテム側のStatusValuesで実装済み"
-}
