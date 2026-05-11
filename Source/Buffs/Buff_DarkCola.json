@@ -1,16 +1,5 @@
 {
-  "AssetName": "Buff_DarkCola",
-  "ParentClass": "Buff_CalienSoup",
-  "AssetPath": "/Game/Mods/DarkCola/Buffs/Buff_DarkCola",
-  "DeactivateAfterTime": 60.0,
-  "ModifyMaxSpeed": true,
-  "UnsubmergedMaxSpeedModifier": 0.15,
-  "CharacterAdd_DefaultHyperthermicInsulation": 0.0,
-  "CharacterMultiplier_ExtraWaterConsumptionMultiplier": 1.0,
-  "BuffDescription": {
-    "ModifierName": "カフェインラッシュ",
-    "ModifierDescription": "移動速度上昇中 (+15%)",
-    "HudMessage": "カフェインラッシュ発動中",
-    "ModifierIcon": "HUD_FizzyDrink_Colorize_d (/Game/PrimalEarth/CoreBlueprints/Resources/Colorized/Textures/)"
-  }
+  "AssetPath": "/DarkCola/Buffs/Buff_DarkCola",
+  "BuffName": "Buff_DarkCola",
+  "Note": "速度ブーストはアイテム側のStatusValuesで実装済み"
 }

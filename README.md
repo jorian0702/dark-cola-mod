@@ -6,22 +6,22 @@ ARK: Survival Ascended 用のカスタム炭酸飲料MOD。
 
 **Dark Cola** はクラフト可能な消費アイテムで、ARKの世界における炭酸エナジードリンク。飲むと以下の効果が得られる:
 
-- **スタミナ回復** (+40 スタミナ / 時間経過で回復)
-- **移動速度バフ** (15%アップ / 60秒間)
-- **水分回復** (+25 水分)
-- 飲むモーション付き、炭酸のシュワシュワ音と泡エフェクト
+- **スタミナ回復** (+40 / 時間経過で回復)
+- **移動速度ブースト** (+15% / 徐々に付与)
+- **水分回復** (+25 / 即時)
+- 炭酸飲料アイコン付き消費アイテム
 
 ## フォルダ構成
 
 ```
 dark-cola-mod/
+├── DarkCola.uplugin          # MODプラグイン定義
 └── Source/
-    ├── Blueprints/      # アイテムBP (PrimalItemConsumable_DarkCola)
-    ├── Buffs/           # 速度バフ (Buff_DarkCola)
-    ├── Icons/           # アイテムアイコン
-    ├── Sounds/          # 炭酸効果音、飲む音
-    ├── VFX/             # 泡パーティクル
-    └── Engrams/         # エングラムエントリ (クラフト解放)
+    ├── Blueprints/            # アイテムBP (PrimalItemConsumable_DarkCola)
+    ├── Buffs/                 # 速度バフ (Buff_DarkCola)
+    ├── Engrams/               # エングラムエントリ (クラフト解放)
+    ├── ModDataAsset_BlankMod.uasset   # MODデータアセット
+    └── PrimalGameData_BP_BlankMod.uasset  # MOD中核BP
 ```
 
 ## クラフトレシピ

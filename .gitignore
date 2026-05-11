@@ -12,10 +12,9 @@ Binaries/
 *.uexp
 
 # Source/内の.uassetはMOD本体なので追跡する
-# それ以外の.uassetは除外
-# ※ Source/配下は下の!ルールで許可
 *.uasset
 !Source/**/*.uasset
+!Source/*.uasset
 
 # OS
 Thumbs.db

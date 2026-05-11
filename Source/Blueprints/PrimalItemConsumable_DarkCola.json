@@ -1,35 +1,24 @@
 {
-  "AssetName": "PrimalItemConsumable_DarkCola",
-  "ParentClass": "PrimalItemConsumable_StaminaSoup (Energy Brew)",
-  "AssetPath": "/Game/Mods/DarkCola/Blueprints/PrimalItemConsumable_DarkCola",
+  "AssetPath": "/DarkCola/Blueprints/PrimalItemConsumable_DarkCola",
   "DescriptiveNameBase": "ダークコーラ",
   "ItemDescription": "シュワッと弾ける黒い炭酸飲料。スティムベリーと火薬粉の秘伝ブレンドが生み出す中毒性のある炭酸は、どんなサバイバーも抗えない。勝利の味がする。",
-  "BaseItemWeight": 2.0,
-  "MaxItemQuantity": 30,
-  "SpoilingTime": 7200.0,
-  "BlueprintTimeToCraft": 15.0,
-  "BaseCraftingXP": 2.0,
-  "bConsumeItemOnUse": true,
-  "bPreventUseByDinos": true,
-  "bPreventUseWhenSleeping": true,
-  "bAutoCraftBlueprint": true,
-  "ItemIcon": "HUD_FizzyDrink_Colorize_d (/Game/PrimalEarth/CoreBlueprints/Resources/Colorized/Textures/)",
+  "ConsumeItemOnUse": true,
   "UseItemAddCharacterStatusValues": [
     {
-      "StatusValueType": "STAMINA",
+      "StatusValueType": "<PrimalCharacterStatusValue.STAMINA: 1>",
       "BaseAmountToAdd": 40.0,
-      "AddOverTime": true,
-      "AddOverTimeSpeed": 10.0,
-      "DontRequireLessThanMaxToUse": true,
-      "UseItemQuality": true
+      "AddOverTimeSpeed": 10.0
     },
     {
-      "StatusValueType": "WATER",
+      "StatusValueType": "<PrimalCharacterStatusValue.WATER: 5>",
       "BaseAmountToAdd": 25.0,
-      "AddOverTime": false,
-      "AddOverTimeSpeed": 0.0,
-      "DontRequireLessThanMaxToUse": true,
-      "UseItemQuality": true
+      "AddOverTimeSpeed": 0.0
+    },
+    {
+      "StatusValueType": "<PrimalCharacterStatusValue.SPEED_MULTIPLIER: 9>",
+      "BaseAmountToAdd": 0.15000000596046448,
+      "AddOverTimeSpeed": 0.009999999776482582
     }
-  ]
+  ],
+  "CraftingResources": "WaterJar x1, StimBerry x2, Sparkpowder x1"
 }
